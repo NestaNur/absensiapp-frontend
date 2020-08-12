@@ -1,0 +1,41 @@
+body {
+    background-color: #E9F1F3;
+}
+
+.text-heder {
+    color: #000;
+    font-weight: 600;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.input-light {
+    border-color: #fafafa;
+    border-radius: 4px;
+    padding: 18px;
+}
+
+.btn-pulih {
+    color: #fff;;
+    background-color: #27B2EC;
+}
+
+.btn-secondary {
+    border-color: #fafafa;
+    background-color: #fff;
+    color: #27B2EC;
+}
+
+.btn-secondary:hover {
+    color: #27B2EC;
+    border: none !important;
+    background-color: #e5e5e5 !important;
+}
+
+.email {
+    padding-top: 20%;
+}
+
+.header-email {
+    font-size: 24px;
+}

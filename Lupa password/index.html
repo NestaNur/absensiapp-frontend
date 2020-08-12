@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Absensi App - Login</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -12,29 +12,53 @@
       rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <div class="col-12">
+        <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 mb-4 pl-4 pr-4">
+
+                    <div class="row mt-4 pt-4">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12 mt-4 mb-4 kunci">
+                                    <img src="../img/Lock.svg" class="img img-fluid mx-auto d-block"lt="">
+                                </div>
+                            </div>
+                                <h3 class="text-center pt-2 pb-2 text-heder">Tidak Bisa Login?</h3>
+                                <p class="text-center paragraf">Kami akan mengirimkan sebuah tautan <br> 
+                                    untuk memulihkan akun anda <br>
+                                    melalui email dibawah</p>
+                        </div>
+                    </div>
+
+                    <div class="row pt-4 pb-4">
+                        <div class="col-12">
+                            <label for="emailpemulihan">Email Pemulihan</label>
+                        </div>
+                        <div class="col-12">
+                            <input type="email" id="emailpemulihan" placeholder="Masukan Email pemulihan" class="form-control input-light">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="button" class="btn form-control btn-primary-app btn-pulih input-light">Pulihkan</button>
+                        </div>
+                    </div>
+
                     
+                <div class="row">
+                    <div class="col-12 mt-4">
+                        <a href="#" class="btn form-control btn-secondary input-light btn-secondary">Kembali Ke Halaman Login</a>
+                    </div>
                 </div>
-            </div>
-    
-            <div class="row">
-                <div class="col-12">
-                    <h1>Tidak bisa Login?</h1>
-                    <br><br>
-                    <p>Kami akan mengirimkan sebuah tautan 
-                        untuk memulihkan akun anda
-                        melalui email dibawah</p>
+
                 </div>
             </div>
         </div>
-        
-    </div>
     
 </body>
 </html>

@@ -1,0 +1,105 @@
+body {
+    background-color: #E9F1F3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-name {
+    margin-top: -60px;
+}
+
+.card-radius {
+    border-radius: 20px;
+}
+
+.CardProfileSiswa {
+    padding-top: 15%;
+}
+
+.user-profil {
+    position: relative;
+    width: 50%;
+    top: -80px;
+}
+
+.card-name {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.input-light {
+    color: #fff;
+    background: #27B2EC;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/* .scon {
+    border-radius: 20px;
+    position: absolute;
+    min-width: 100%;
+    top: 200px;
+} */
+
+.scon{
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+    box-shadow: drop-shadow(0px 4px 5px rgba(228, 237, 240, 0.5));;
+}
+
+.user-icon {
+    position: absolute;
+    left: 1px;
+}
+
+
+.anak {
+    font-size: 14px;
+}
+
+.riwayat {
+    margin-top: 40px;
+}
+
+.kehadiran {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-background {
+    background-color: rgba(255, 255,255,0);
+}
+
+.btn-acor {
+    background-color: rgba(255, 255,255,0);
+}
+
+
+.list-kehadiran{
+    list-style: none;
+}
+
+.bullet-grend {
+    position: absolute;
+    top: 57px;
+    left: 20px;
+    font-size: 50px;
+    color: #26DE81;
+}
+
+.bullet-blue {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    font-size: 50px;
+    color: #45AAF2;
+}
+
+.btn-selengkapnya {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.btn-selengkapnya:hover {
+    background-color: #fff;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Absensi App - Login</title>
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="col-12 pt-4 pb-4">
+
+                <div class="row">
+                    <div class="col-8">
+                        <h5>
+                            <b>Halo, Asep!</b>
+                        </h5>
+                        <p>
+                            Anakmu sedang belajar di sekolah
+                        </p>
+
+                    </div>
+                    <div class="col-4">
+                        <img src="../img/Ellipse 7.svg" class="img img-fluid mx-auto d-block" alt="">
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-12 CardProfileSiswa">
+                        <div class="card card-radius">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img
+                                            src="../img/Ellipse 9.svg"
+                                            class="img img-fluid mx-auto d-block user-profil"
+                                            alt="">
+                                        <h3 class="text-center card-name">Nurdin Alhikmah</h3>
+                                        <p class="text-center">12 Multimedia 3</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p>
+                                            <span
+                                                class="iconify clock-icon"
+                                                data-inline="false"
+                                                data-icon="ant-design:clock-circle-filled"
+                                                style="font-size: 24px; margin-left:5px; color: #000;"></span>
+                                            --:--</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="pl-4">
+                                            <span
+                                                class="iconify user-icon"
+                                                data-inline="false"
+                                                data-icon="bx:bxs-user"
+                                                style="font-size: 24px; margin-left: 5px; color: #000;"></span>
+                                            Belum hadir</p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card scon">
+                                            <div class="card-body card-body-secon">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <p class="anak">
+                                                            <span>Sentuh untuk izin</span></p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <span>
+                                                            <button
+                                                                type="button"
+                                                                class="btn form-control btn-primary-app btn-pulih input-light">Buat izin</button></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row riwayat">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <h5 class="kehadiran pt-3 mb-1">
+                                    <b>Riwayat kehadiran</b>
+                                </h5>
+                                <p>Riwayat kehadiran anakmu disekolah</p>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                        <div class="card-header btn-background" id="headingOne">
+                                            <h2 class="mb-0">
+                                                <button
+                                                    class="btn btn-block btn-acor text-left"
+                                                    type="button"
+                                                    data-toggle="collapse"
+                                                    data-target="#hari-ini"
+                                                    aria-expanded="true"
+                                                    aria-controls="hari-ini">
+                                                    Hari ini <span class="iconify" data-inline="false" data-icon="mdi:chevron-down" style="font-size: 24px;"></span>
+                                                </button>
+                                            </h2>
+                                        </div>
+
+                                        <div
+                                            id="hari-ini"
+                                            px="collapse show"
+                                            aria-labelledby="headingOne"
+                                            data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul class="list-kehadiran">
+                                                    <li type="cirle" class="list pb-2">
+                                                        <span class="bullet-grend">•</span>
+                                                        Tiba pada jam 6:30</li>
+                                                    <li type="cirle">
+                                                        <span class="bullet-blue">•</span>
+                                                        Pulang pada jam 16:30</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row kemarin pt-3">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                        <div class="card-header btn-background" id="headingOne">
+                                            <h2 class="mb-0">
+                                                <button
+                                                    class="btn btn-block btn-acor text-left"
+                                                    type="button"
+                                                    data-toggle="collapse"
+                                                    data-target="#kemarin"
+                                                    aria-expanded="true"
+                                                    aria-controls="kemarin">
+                                                    Kemarin
+                                                </button>
+                                            </h2>
+                                        </div>
+
+                                        <div
+                                            id="kemarin"
+                                            px="collapse show"
+                                            aria-labelledby="headingOne"
+                                            data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul class="list-kehadiran">
+                                                    <li type="cirle" class="list pb-2">
+                                                        <span class="bullet-grend">•</span>
+                                                        Tiba pada jam 6:30</li>
+                                                    <li type="cirle">
+                                                        <span class="bullet-blue">•</span>
+                                                        Pulang pada jam 16:30</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-block btn-light mt-3 pt-3 pb-3 btn-selengkapnya">Tampilkan Selengkapnya</button>
+                    </div>
+                </div>
+
+            </body>
+        </html>
