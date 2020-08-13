@@ -1,0 +1,51 @@
+body {
+    background-color: #E9F1F3;
+}
+
+.setting {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.asep {
+    position: relative;
+    bottom: 20px;
+}
+
+.pembungkus-card {
+    margin-top: 20%;
+}
+
+.img {
+    position: relative;
+    top: -65px;
+}
+
+.atur-arow {
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 50%;
+}
+
+.btn-atur {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.input-light {
+    border-color: #fafafa;
+    border-radius: 4px;
+    padding: 18px;
+}
+
+    .btn-konfirm {
+        background-color: #18B256;
+        color: #fff;
+        border-radius: 10px;
+    }
+    
+    .btn-konfirm:hover {
+        color: #000;
+        background-color: #fff;
+    }
