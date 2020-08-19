@@ -24,9 +24,9 @@ body {
 }
 
 .atur-arow {
-    font-size: 25px;
-    font-weight: 700;
-    padding-left: 50%;
+    position: relative;
+    top: 5px;
+    left: 160px;
 }
 
 .btn-atur {
@@ -39,13 +39,84 @@ body {
     padding: 18px;
 }
 
-    .btn-konfirm {
-        background-color: #18B256;
-        color: #fff;
-        border-radius: 10px;
-    }
-    
-    .btn-konfirm:hover {
-        color: #000;
-        background-color: #fff;
-    }
+.btn-konfirm {
+    background-color: #18B256;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn-konfirm:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/* ----------------------------Riwayat------------------------ */
+
+.juni {
+    margin-top: 6%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.heder-tanggal {
+    font-weight: 600;
+}
+
+.bullet-grend {
+    position: absolute;
+    top: 130px;
+    left: 15px;
+    font-size: 50px;
+    color: #26DE81;
+}
+
+.bullet-blue {
+    position: absolute;
+    top: 160px;
+    left: 15px;
+    font-size: 50px;
+    color: #45AAF2;
+}
+
+.bullet-grend-dua {
+    position: absolute;
+    top: 300px;
+    left: 15px;
+    font-size: 50px;
+    color: #26DE81;
+}
+
+.bullet-blue-dua {
+    position: absolute;
+    top: 330px;
+    left: 15px;
+    font-size: 50px;
+    color: #45AAF2;
+}
+
+.bullet-grend-tiga {
+    position: absolute;
+    top: 475px;
+    left: 15px;
+    font-size: 50px;
+    color: #26DE81;
+}
+
+.bullet-blue-tiga {
+    position: absolute;
+    top: 510px;
+    left: 15px;
+    font-size: 50px;
+    color: #45AAF2;
+}
+
+.bullet-blue-empat {
+    position: absolute;
+    top: 530px;
+    left: 15px;
+    font-size: 50px;
+    color:  #576574;
+}
